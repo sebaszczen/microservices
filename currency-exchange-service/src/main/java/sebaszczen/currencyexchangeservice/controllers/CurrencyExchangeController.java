@@ -32,6 +32,7 @@ public class CurrencyExchangeController {
         ExchangeValue exchangeValue = exchangeValueRepository.findByFromAndTo(from,to);
         exchangeValue.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
         logger.info("{}",exchangeValue);
+        System.out.println("SDFsdf");
         return exchangeValue;
     }
 }
