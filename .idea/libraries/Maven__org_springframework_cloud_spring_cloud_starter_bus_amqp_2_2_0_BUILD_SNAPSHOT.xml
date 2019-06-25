@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-starter-bus-amqp:2.2.0.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-bus-amqp/2.2.0.BUILD-SNAPSHOT/spring-cloud-starter-bus-amqp-2.2.0.BUILD-20190624.194634-735.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-bus-amqp/2.2.0.BUILD-SNAPSHOT/spring-cloud-starter-bus-amqp-2.2.0.BUILD-20190625.194628-743.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-bus-amqp/2.2.0.BUILD-SNAPSHOT/spring-cloud-starter-bus-amqp-2.2.0.BUILD-20190624.194634-735-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-bus-amqp/2.2.0.BUILD-SNAPSHOT/spring-cloud-starter-bus-amqp-2.2.0.BUILD-20190625.194628-743-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-bus-amqp/2.2.0.BUILD-SNAPSHOT/spring-cloud-starter-bus-amqp-2.2.0.BUILD-20190624.194634-735-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-bus-amqp/2.2.0.BUILD-SNAPSHOT/spring-cloud-starter-bus-amqp-2.2.0.BUILD-20190625.194628-743-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
