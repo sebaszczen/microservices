@@ -2,7 +2,7 @@ package sebaszczen;
 
 
 /**
- * Unit test for simple App.
+ * Unit test for simple SpringCloudConfigServer.
  */
 public class AppTest 
 {
