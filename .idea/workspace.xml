@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83d80a87-e951-4441-88ec-b09ded8178e8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/git-localconfig-repo" afterPath="$PROJECT_DIR$/spring-cloud-config-server/git-localconfig-repo" />
     </list>
     <list id="eb97a239-a077-44a3-b2f4-e8f98ab552ff" name="New changelist" comment="" />
     <ignored path="$PROJECT_DIR$/spring-cloud-config-server/target/" />
@@ -455,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561481729179</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="komit">
+      <created>1561540570293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561540570293</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -558,7 +563,8 @@
     <MESSAGE value="czesciowo dziala zipkin" />
     <MESSAGE value=" dziala zipkin" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="komit" />
+    <option name="LAST_COMMIT_MESSAGE" value="komit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
