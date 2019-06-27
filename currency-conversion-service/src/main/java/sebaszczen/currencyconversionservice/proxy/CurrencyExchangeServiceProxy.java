@@ -5,7 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import sebaszczen.currencyconversionservice.domain.CurrencyConversionBean;
-
+//bez ribbona
 //@FeignClient(name = "currency-exchange-service", url = "localhost:8000")
 //public interface CurrencyExchangeServiceProxy {
 //    @GetMapping("currency-exchange-service/currency-exchange/from/{from}/to/{to}")
@@ -14,8 +14,11 @@ import sebaszczen.currencyconversionservice.domain.CurrencyConversionBean;
 //}
 
 
-//@FeignClient(name = "currency-exchange-service", url = "localhost:8000")
+//z ribbonem laczenie przez naming service
 //@FeignClient(name = "currency-exchange-service")
+//@RibbonClient(name = "currency-exchange-service")
+
+
 @FeignClient(name = "netflix-zuul-api-gateway-server")
 @RibbonClient
 public interface CurrencyExchangeServiceProxy {
