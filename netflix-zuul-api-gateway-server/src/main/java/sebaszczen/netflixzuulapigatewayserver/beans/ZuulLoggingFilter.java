@@ -14,17 +14,18 @@ public class ZuulLoggingFilter extends ZuulFilter {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
+    //before: 'pre' the filter is executed or after 'post' or when filter only request that powoduja error 'error'
     @Override
     public String filterType() {
         return "pre";
     }
 
+    //jesli mamy duzo filtrow np. zuulloggingfilter, zullsecurityfilter... mozemy nadac im priorytet 1,2,3,... 1 bedzie pierwszy
     @Override
     public int filterOrder() {
         return 1;
     }
 
-    //before: 'pre' the filter is executed or after 'post' or when filter only request that powoduja error 'error'
     @Override
     public boolean shouldFilter() {
         return true;
