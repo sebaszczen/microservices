@@ -25,6 +25,7 @@ public interface CurrencyExchangeServiceProxy {
 
 //    metoda z currency exchange controller
 //    @GetMapping("/currency-exchange/from/{from}/to/{to}")
+    //zapytanie zgodne z zuul api gateway  {application-name-we-want-to-call}/{uri-of-mapped-method-from-controller}
     @GetMapping("currency-exchange-service/currency-exchange/from/{from}/to/{to}")
     public CurrencyConversionBean retrieveExchangeValue
             (@PathVariable("from") String from, @PathVariable("to") String to);
